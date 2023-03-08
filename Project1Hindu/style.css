@@ -1,0 +1,288 @@
+/* button style */
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.navi{
+    margin-top:3px;
+    background-color:white;
+    width:98%;
+    height:83px;
+}
+
+/* navi-image sec */
+.navi img{
+    height:46px;  
+}
+
+/* nav btn sec */
+.subscribe-btn{
+    background: #153c59;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:12px;
+}
+.login-btn
+{
+    border: 1px solid #0973a3;
+    background: #0973a3;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:12px;
+}
+
+
+/* content style */
+.content-body{
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    width:98%;    
+}
+
+.content-body p{
+    font-size:13px;
+}
+
+.content-body .card{
+    border-radius:15px;
+}
+
+.content-body .card1-img,.card3-img{
+    width:180px;
+    height:23px;
+}
+
+ .card2 button{
+    border-radius: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:12px;
+}
+
+.content-body .app-icon{
+    width:100px;
+    height:30px;
+}
+.content-body .subscribe-body-btn{
+    background-color: #153c59;
+    font-size:12px;
+    border-radius: 15px;
+}
+
+.content-body .try-it-btn{
+    font-size:12px;
+    border-radius: 15px;
+}
+
+/* holi section */
+
+.holi-container{
+    padding: 30px 35px;       
+}
+
+
+/* offer sectiom */
+
+.offer-cards{
+    margin-top:100px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    width:96%;   
+}
+
+.offer-cards .offer-subscribe-btn{
+    background: linear-gradient(90deg, #133B5A 0%, #3B77A5 100%);
+    border-radius: 20px;
+}
+.offer-cards button{
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+    font-weight: 900;
+}
+.offer-cards .offer-btn3{
+    background-color: white;
+    border-radius:20px ;
+}
+.offer-cards .card-3{
+    background: linear-gradient(90deg, #133B5A 0%, #3B77A5 100%);
+    border-radius: 20px;
+    margin-bottom:30px;
+    
+}
+.offer-cards .strikes{
+    text-decoration: line-through;
+}
+
+.offer-cards .plan-btn{
+    border-radius:15px;
+    border-style:none;   
+}
+
+
+
+/* subscription heading */
+
+.subs-head{
+    color:#133B5A;
+    padding:10px 3px;
+    margin:10px 10px;
+}
+
+.more-subs-option .bgcolor-subs{
+    background-color: #f1f1f1;
+    width:100%;
+    padding:15px;
+}
+
+.more-subs-option img{
+    width:92px;
+    height:170px;
+}
+
+
+
+/* news section */
+
+.news-section p{
+   color:#333;
+   font-weight:400 ;
+   font-size:20px;
+   padding-bottom: 105px;
+}
+.news-section .news1{
+    background-color:#E8F4FF;
+}
+
+.news-section .news2{
+    background-color:#E9E9E9;
+}
+.news-section .news3{
+    background-color:#FFF3E8;
+}
+
+
+/* SUBSCRIPTION BENEFIT LOGO */
+
+.subs-benefit-logo h6{
+   color:grey;
+   font-size:12px;
+   line-height:1.5;
+   margin-top:6px;
+}
+
+
+
+
+
+/* footer section */
+
+.footer-section{
+    background-color:#f1f1f1;
+}
+
+
+
+/* quiz section */
+
+.quiz-sec .quiz-card1{
+    background-color: #0973a3;
+    border-radius: 20px;
+}
+
+.quiz-sec .quiz-card2{
+    background-color: #0973a3;
+   
+}
+
+
+.quiz-sec .button1{
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.quiz-sec .button2{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.quiz-sec p{
+    font-size: 14px;
+}
+
+/* more questions section  */
+
+.more-qns-heading{
+ border:2px solid  #0973a3;
+ width:55%;
+ border-radius: 15px;
+ padding:26px 12px;
+ color:gray;
+ font-size:13px;
+ text-decoration: underline;
+}
+
+
+/* contact us line sec */
+
+
+.contact-line-sec ul li{
+    list-style: none;
+    display:inline-block;
+    
+    
+}
+
+
+
+
+.contact-line-sec .underline{
+    width:max-content;
+    border-bottom: 5px;
+    border-bottom: 4px solid #7DADD4;
+}
+
+/* see subscription button */
+
+
+
+.see-subs-plan-btn{
+    background: linear-gradient(90deg, #133B5A 0%, #3B77A5 100%);
+    border-radius:10px;
+    border-style: none;
+}
+
+
+
+/* learning-corner section */
+
+
+.learning-corner ul li img{
+    padding-right:15px ;
+}
+
+
+
+.learning-corner ul li{
+    list-style-type: none;
+    line-height:32px;
+    font-weight:400;
+    font-size:18px;
+    color:black;
+
+}
+
+/* contact section */
+
+.contact-section .row{
+    border-radius:15px;
+}
+
+/* footer */
+
+.footer-sec{
+    font-size:14px;
+}
+
+.footer-sec a{
+    color:gray;
+}
