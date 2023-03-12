@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TinDog Website</title>
+
+
+  <!-- CSS stylesheet Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+  <!-- Bootstrap js script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap" rel="stylesheet">
+
+
+  <!-- cta section font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+  <!-- dog style-font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+
+  <!-- Adding Stylesheet -->
+  <!-- Add our stylesheet below bootstrap file -->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+
+
+
+
+<body>
+
+  <section id="title" class="color-section">
+    <div class="container-fluid"> <!--it takes full width, Givivng padding on left and right -->
+      <nav class="navbar navbar-dark navbar-expand-md">
+
+        <a href="#" class="navbar-brand ">Doggie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <div class="row"> <!-- Diving the colum into 6 units using grid -->
+
+        <div class="col-md-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+
+          <!-- /* Removing google play icon color and apple  */ -->
+          <button type="button" class="btn btn-dark download-btn"><i class="fa fa-apple color-i " aria-hidden="true" style="color:#F7F7F7; "></i>&nbsp;Download</button>
+          <button type="button" class="btn btn-outline-light download-btn"><i class="fa-brands fa-google-play" style="color:#F7F7F7;"></i>&nbsp;Download</button>
+        </div>
+
+        <div class="col-md-6 img-relative-to-div">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features" class="white-section">
+    <div class="row">
+      <div class=" col-md-4  col-sm-12 padding-content">
+        <i class="fa-sharp fa-solid fa-circle-check fa-3x color-i-tag"></i>
+        <h2>Easy to use.</h2>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 padding-content">
+        <i class="fa-solid fa-bullseye fa-3x color-i-tag"></i>
+        <h2>Elite Clientele</h2>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+
+      <div class="col-md-4  col-sm-12 padding-content">
+        <i class="fa-solid fa-heart fa-3x color-i-tag"></i>
+        <h2>Guaranteed to work.</h2>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials" class="color-section">
+
+    <div id="testimonials-slides" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item"> <!-- active- its shows the 1st slide (current) -->
+          <h3 class="testimonials-font">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h3>
+          <img class="img-testimonial" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item active">
+          <h3 class="testimonials-font">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h3>
+          <img class="img-testimonial" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-slides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!-- Visually-hidden - for screen reader -->
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <!-- Visually-hidden - for screen reader -->
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    <!-- Press -->
+
+    <section id="press" class="color-section">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    </section>
+  </section>
+    </div>
+
+
+
+
+
+
+  <!-- Pricing -->
+
+
+
+
+<section id="pricing" class="white-section">
+
+
+
+    <h2 class="style-h2">A Plan for Every Dog's Needs</h2>
+
+    <p class="style-h2">Simple and affordable price plans for you and your dog.</p>
+
+
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-header">
+
+            <h2>Chihuahua</h2>
+
+          </div>
+
+          <div class="card-body">
+
+            <h2>Free</h2>
+
+            <p>5 Matches Per Day</p>
+
+            <p>10 Messages Per Day</p>
+
+            <p>Unlimited App Usage</p>
+
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="pricing-column col-lg-4 col-md-6">
+
+        <div class="card">
+
+          <div class="card-header">
+
+            <h2>Labrador</h2>
+
+          </div>
+
+          <div class="card-body">
+
+            <h2>$49 / mo</h2>
+
+            <p>Unlimited Matches</p>
+
+            <p>Unlimited Messages</p>
+
+            <p>Unlimited App Usage</p>
+
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="pricing-column col-lg-4">
+
+        <div class="card">
+
+          <div class="card-header">
+
+            <h2>Mastiff</h2>
+
+          </div>
+
+          <div class="card-body">
+
+            <h2>$99 / mo</h2>
+
+            <p>Pirority Listing</p>
+
+            <p>Unlimited Matches</p>
+
+            <p>Unlimited Messages</p>
+
+            <p>Unlimited App Usage</p>
+
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="color-section">
+
+    <h3 class="h3-style">So, Let's find the True Love of Your Dog's Life Today.</h3>
+    <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/dog_1f415.png" alt="Hey its-my-Dog">
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa fa-apple color-i " aria-hidden="true" style="color:#F7F7F7; "></i>&nbsp;Download</button>
+    <button type="button" class="btn btn-light btn-lg download-btn"><i class="fa-brands fa-google-play" style="color:black;"></i>&nbsp;Download</button>
+
+  </section>
+
+  <!-- Footer -->
+
+
+
+  <footer id="footer" class="white-section">
+    <i class="fa-brands fa-twitter fa-1x symbol"></i>
+    <i class="fa-solid fa-envelope fa-1x symbol"></i>
+    <i class="fa-brands fa-facebook fa-1x symbol"></i>
+    <i class="fa-brands fa-whatsapp fa-1x symbol"></i>
+    <i class="fa-brands fa-instagram fa-1x symbol"></i>
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+
+
+  <!-- Font Awesome icon -->
+  <!-- make sure you added this kit code -->
+  <script src="https://kit.fontawesome.com/5beb72e010.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
