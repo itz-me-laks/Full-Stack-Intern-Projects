@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+*{
+    margin: 8px 12px;
+    background-color: darkslategrey;
+    font-size:16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.head-section{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    font-weight:bolder;
+    font-size:20px;
+    text-shadow: 1px 1px rgb(222, 27, 33);
+}
+.btn-again{
+    background-color: azure;
+    padding:10px 20px;
+    color:rgb(32, 28, 23);
+    font-weight: bolder;
+    border:2px solid greenyellow;
+
+}
+.btn-again:hover{
+    background-color:rgb(212, 77, 86);
+    color:whitesmoke;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color:rgb(255, 191, 0);
+    font-size:26px;
+    margin-bottom:30px;
+    border-bottom: 5px solid yellowgreen;
+    
+    text-shadow: 1px 2px black;
+}
+.input-section{
+    display:flex;
+    flex-direction: column;
+}
+.number{
+    width:50px;
+    height:50px;
+    background-color: rgb(241, 237, 232);
+    font-weight: 900;
+    font-size:50px;
+    padding:25px;
+    text-align:center;
+    margin:auto;
+    border-radius:50%;
+    text-shadow: 1px 1px rgb(140, 231, 140);
+    color:red;
+}
+/* main section */
+.main{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+  
+
+}
+.left{ 
+    flex-direction: column;   
+    text-shadow: 1px 1px rgb(140, 231, 140);
+}
+
+.right{
+    flex-direction: column;
+}
+
+/* input box design */
+.left .guess{
+    width:60%;
+    height:35%;
+    background-color: rgb(50, 146, 76);
+    border:2px solid yellow;
+}
+.check{
+    background-color: azure;
+    padding:8px 20px;
+    color:rgb(32, 28, 23);
+    font-weight: bolder;
+    border:2px solid rgb(255, 191, 0);
+    border-radius: 25%;
+    margin-top:6px;
+}
+
+.right{
+    color:white;
+    font-size:15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height:1.5;
+}
+.message:hover{
+    color:rgb(80, 202, 80);
+    text-shadow: 1px 1px black;
+}
